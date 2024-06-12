@@ -1,0 +1,13 @@
+.data{
+    margin-top: 50px;
+    &__desc{
+        display: flex;
+        gap: 237px;
+        font-size: 14px;
+        color: $bg-content;
+        @media (max-width:470px){
+                display: flex;
+                gap: 80px;
+            }
+        }
+}

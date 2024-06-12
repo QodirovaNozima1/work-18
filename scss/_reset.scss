@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    max-width:1248px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container-md{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container-sm{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+a{
+    color: inherit;
+    text-decoration:inherit;
+}
+li{
+    list-style: none;
+}
