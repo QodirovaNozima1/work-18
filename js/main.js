@@ -113,7 +113,7 @@ alert`Masalalar consoleda`
             return `b son  ${b} katta `
         }
     }
-    // console.log(son(25, 2));
+    // console.log(son(8, 3));
 }
 
 {
@@ -160,16 +160,17 @@ alert`Masalalar consoleda`
 
 {
     // 15 masala
-    function son(a, b, c, d) {
-                if (a === b && b === c) return 4;
-                if (a === b && b === d) return 3;
-                if (a === c && c === d) return 2;
-                if (b === c && c === d) return 1;
-                return 0;
+    function number( a, b, c ) {
+                if ( ( a + b > b + c ) || ( a + b > a + c ) ) {
+                    return `${a} va ${b}. `
+                } else if( ( a + c > a + b ) || ( a + c > b + c ) ){
+                    return `${a} va ${c}. `
+                } else if( ( b + c > a + b ) || ( b + c > a + c ) ){
+                    return `${b} va ${c}.` 
+                }
             }
-            
-            // console.log(son(1, 5, 2, 4));
-    
+            // console.log( number(9, 5, 2) );
+            // console.log( number(2, 4, 1) );
 }
 
 
